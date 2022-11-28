@@ -18,7 +18,6 @@ function App() {
   console.log('recebi o parâmetro', palavras)
 
 
-
   return (
     <div className='app'>
 
