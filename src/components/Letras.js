@@ -4,7 +4,7 @@ export default function Letras () {
 
 
     return (
-        <div className='letras'>
+        <div data-test = 'letter' className='letras'>
            {alfa.map((letra => <buttom className='botao-letra'> {letra}</buttom>))}
         </div>
     )

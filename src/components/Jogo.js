@@ -6,14 +6,14 @@ export default function Jogo({ imagem, sortearIndex, setIndex }) {
     return (
         <div className='principal-jogo'>
             <div className='img-game'>
-                <img className='forca' src={imagem[0]} />
+                <img data-test = 'game-image' className='forca' src={imagem[0]} />
             </div>
 
             <div className='lado-esquerdo'>
-                <button onClick={sortearIndex} className='iniciar'>
+                <button data-test = 'choose-word' onClick={sortearIndex} className='iniciar'>
                     Escolher Palavra
                 </button>
-                <div className='palavras'>
+                <div data-test = 'word' className='palavras'>
                     <p>{sortearIndex}</p>
                 </div>
             </div>

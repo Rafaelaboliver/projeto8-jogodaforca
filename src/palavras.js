@@ -1,4 +1,4 @@
-import { useState } from "react"
+
 
 const palavras = [
     "abacate", "abacaxi", "abelha", "abanador", "antologia", "amor", "aba", "abrigo", "abrir",
@@ -26,17 +26,6 @@ const palavras = [
     "zebra", "zagueiro", "zero", "zoeira", "zepelim", "zinco", "zumbido"
 ]
 
- function Forca (palavras) {
-    const [letreiro, setLetreiro] = useState("")
-
-    function aparecerLetreiro () {
-        setLetreiro(letreiro + palavras[i])
-    }
-    
-    return (
-        <p>{aparecerLetreiro}</p>
-    )
-}
-
+ 
 
 export default palavras
