@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FAFAFA;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app {
+  width: 1025px;
+  height: 839px;
+  margin: auto;
+}
+
+.principal-jogo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forca {
+  width: 400px;
+  height: 465px;
+  margin-top: 59px;
+}
+
+.lado-esquerdo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.iniciar {
+  color: #FAFAFA;
+  background-color: #27AE60;
+  width: 200px;
+  height: 60px;
+  margin-top: 89px;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 8px;
+  border-style: hidden;
+  text-align: center;
+}
+
+.palavras {
+  margin-top: 282px;
+  background-color: red;
+  width: 323px;
+  height: 68px;
+  margin-right: 61px;
+}
+
+.letras {
+  margin: auto;
+  margin-top: 70px;
+  width: 700px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.botao-letra {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #798a9f;
+  background-color: #9faab5;
+  border-radius: 3px;
+  border-color: #7aa7c7;
+  border-width: 1px;
+  border-style: solid;
+  margin-right: 12px;
+  margin-top: 11px;
+  font-size: 16px;
+  font-weight: 700;
+  width: 40px;
+  height: 40px;
+
+}
+
+.p-chute {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.chute {
+  display: flex;
+  width: 624px;
+  height: 40px;
+  margin: auto;
+  margin-top: 56px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.campo-digitar {
+  width: 353px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #ffff;
+  border-color: #ccc;
+  border-style: solid;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.botao-chutar {
+  width: 100px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 3px;
+  border-color: #7aa7c7;
+  border-style: solid;
+  color: #3c76a1;
+  background-color: #e1ecf4;
+}
